@@ -41,8 +41,8 @@ def automate_preprocessing(input_path: str, output_path: str):
     print(f"✅ Preprocessing selesai. Dataset disimpan di {output_path}")
 
 if __name__ == "__main__":
-    input_path = "personality_dataset_raw.csv"
-    output_path = "personality_dataset_preprocessing.csv"
+    input_path = "preprocessing/personality_dataset_raw.csv"
+    output_path = "preprocessing/personality_dataset_preprocessing.csv"
     automate_preprocessing(input_path, output_path)
 
 # Trigger run for GitHub Actions
